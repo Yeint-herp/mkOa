@@ -1,0 +1,20 @@
+    MicroKernel on Android
+
+Simple microkernel being developed targetting
+modern-ish em64t with the preferred build host
+to be the Termux Android environment.
+
+The vast majoriry of design choices will be taken
+from the only microkernel I ever studied, MMURTL
+as recommended by an old friend. Some credit,
+may also be attributed to seL4*.
+
+Please excuse any typos, all of this was written
+on an Android virtual keyboard with very bad
+hitboxes.
+
+All code contained within this repositary is
+licensed exclusively under the GNU General
+Public License Version 2 dated June 1991.
+
+> Android is a trademark of Google LLC.
