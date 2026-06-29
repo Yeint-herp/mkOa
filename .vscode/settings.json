@@ -1,5 +1,0 @@
-{
-    "dcc.includePaths": [
-        "${workspaceFolder}/loader/source"
-    ]
-}
