@@ -66,7 +66,7 @@ all: $(OUTPUT)
 
 .PHONY: all clean
 
-$(OUTPUT): $(C_OBJS)
+$(OUTPUT): $(C_OBJS) $(LINKER_SCRIPT)
 	@mkdir -p $(dir $@)
 	@echo "[LD] $@"
 	@$(LD) $(LDFLAGS) -o $@ $(C_OBJS)
