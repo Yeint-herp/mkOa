@@ -61,8 +61,11 @@ endif
 
 C_SRCS := $(shell find source -type f -name '*.c')
 C_OBJS := $(patsubst source/%.c, $(OBJ_DIR)/%.o, $(C_SRCS))
+C_DEPS := $(C_OBJS:.o=.d)
 
 all: $(OUTPUT)
+
+-include $(C_DEPS)
 
 .PHONY: all clean
 
